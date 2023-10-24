@@ -1,0 +1,128 @@
+.abbout__search__btn {
+    padding-top: 144px;
+}
+
+form input {
+    max-width: 100%;
+    width: 100%;
+    height: 76px;
+    border-radius: 2px;
+    border: 1px solid rgba(109, 110, 118, 0.50);
+    padding-left: 20px;
+}
+
+::placeholder {
+    padding-left: 24px;
+}
+
+.hr {
+    max-width: 100%;
+    width: 100%;
+    height: 1px;
+    background-color: #6d6e7670;
+}
+
+.news__about__post__title {
+    margin-top: 54px;
+    margin-bottom: 32px;
+    color: #232536;
+    font-family: 'Sen';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+}
+
+.news__about__wrapper {
+    display: flex;
+    column-gap: 35px;
+}
+
+.about__starup {
+    color: #592EA9;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.about__starup__title {
+    max-width: 673.388px;
+    width: 100%;
+    color: #232536;
+    font-family: 'Sen';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+}
+
+.about__startup__text {
+    max-width: 696.963px;
+    width: 100%;
+    color: #6D6E76;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.news__about__big__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 64px;
+}
+
+.about__title__wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.about__show__more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 110px;
+}
+
+.about__show__more button {
+    color: #6D6E76;
+    text-align: center;
+    font-family: 'Sen';
+    background-color: none;
+    border: 0;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    background-color: #592ea900;
+}
+
+.one {
+    color: #232536;
+    text-align: center;
+    font-family: Sen;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;
+}
+
+@media (max-width:768px) {
+    form input {
+        max-width: 50%;
+        width: 100%;
+    }
+    .news__about__wrapper {
+        flex-direction: column;
+    }
+}
