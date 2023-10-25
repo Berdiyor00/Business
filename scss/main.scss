@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none
+}
+
+.container {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 20px 0 20px;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+button {
+    cursor: pointer;
+}
+
+@import './all_block/_header.scss';
+@import './all_block/fonts';
+@import './all_block/section';
+@import './all_block/footer';
+@import './all_block/about-hero';
+@import './all_block/catigory';
+@import './all_block/register';
